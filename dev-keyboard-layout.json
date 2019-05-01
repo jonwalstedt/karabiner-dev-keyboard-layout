@@ -584,6 +584,68 @@
             }
           ]
         },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": {
+              "mandatory": [ "command" ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "8",
+              "modifiers": [ "right_option"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": {
+              "mandatory": [ "command", "shift" ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "8",
+              "modifiers": [ "right_option", "shift"]
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": {
+              "mandatory": [ "left_control" ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "8",
+              "modifiers": [ "right_option"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "open_bracket",
+            "modifiers": {
+              "mandatory": [ "left_control", "shift" ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "8",
+              "modifiers": [ "right_option", "shift"]
+            }
+          ]
+        },
         {
           "type": "basic",
           "from": {
@@ -596,6 +658,67 @@
             {
               "key_code": "9",
               "modifiers": [ "right_option", "right_shift"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "close_bracket",
+            "modifiers": {
+              "mandatory": [ "command" ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "9",
+              "modifiers": [ "right_option"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "close_bracket",
+            "modifiers": {
+              "mandatory": [ "command", "shift" ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "9",
+              "modifiers": [ "right_option", "shift"]
+            }
+          ]
+        },
+
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "close_bracket",
+            "modifiers": {
+              "mandatory": [ "left_control" ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "9",
+              "modifiers": [ "right_option"]
+            }
+          ]
+        },
+        {
+          "type": "basic",
+          "from": {
+            "key_code": "close_bracket",
+            "modifiers": {
+              "mandatory": [ "left_control", "shift" ]
+            }
+          },
+          "to": [
+            {
+              "key_code": "9",
+              "modifiers": [ "right_option", "shift"]
             }
           ]
         },
